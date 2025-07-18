@@ -19,7 +19,7 @@ public class Find_Frequence_Of_Numbers {
         }
 
         for(int q =0 ;q < queries.length; q++){
-            System.out.println(queries[q]+"-"+ hash[queries[]]);
+            System.out.println(queries[q]+"-"+ hash[queries[q]]);
         }
     }
 
