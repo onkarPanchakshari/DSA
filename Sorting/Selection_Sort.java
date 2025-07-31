@@ -7,6 +7,8 @@ import java.util.Arrays;
  * - it solve by two pointer approact 
  * -one pointer stands starting second comparie (full explaination in the notebook)
  * - explain is belowe of the code
+ * 
+ *   Note - time Complexity of this algo is O(n^2)
  */
 
 public class Selection_Sort {
