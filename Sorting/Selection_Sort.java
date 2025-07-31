@@ -2,6 +2,13 @@ package Sorting;
 
 import java.util.Arrays;
 
+/* In hte selection sort as per name we select the element and swap it 
+ * - it will sort the array by the increaing order 
+ * - it solve by two pointer approact 
+ * -one pointer stands starting second comparie (full explaination in the notebook)
+ * - explain is belowe of the code
+ */
+
 public class Selection_Sort {
 
     public static void SelectionSort(int arr[]){
@@ -30,3 +37,10 @@ public class Selection_Sort {
     }
     
 }
+
+/*
+ * lt understand by the example given {13 , 15 , 18 , 25, 9 }
+ * 
+ * fi
+ * 
+ */
