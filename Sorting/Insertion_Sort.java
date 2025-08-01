@@ -42,5 +42,9 @@ public class Insertion_Sort {
   3:-The “inner while loop” basically shifts the elements using swapping. 
 
   Note:- For more nuderstanding Go to(https://takeuforward.org/data-structure/insertion-sort-algorithm/)
+
+   Time Complexity :-
+ *    Worst-case and Average-case: O(n^2)
+ *    Best-case: O(n)
  * 
  */
