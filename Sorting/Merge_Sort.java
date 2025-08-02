@@ -93,4 +93,11 @@ public class Merge_Sort {
      - After that, the left-out elements in both halves will be copied as it is into the temp array.
        Now, we will just transfer the elements of the temp array to the range low to high in the original array. The pseudo code will look like the following:
 
+
+
+       Time Complexity :-
+       N log(N)
+
+       Space Complexity :-
+       O(n)
  */
