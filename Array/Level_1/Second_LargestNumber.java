@@ -28,8 +28,14 @@ public class Second_LargestNumber {
 
     /*  following is better solution
      * 
-     *  we find first larget number as 
+     *  we find first larget number as find in largest number qut and store this largest number in the int largest 
+     * and then we travel 2nd time with with the array in this time compair accordingly
+     * if(arr[i] > slargest && arr[i] < largest) then this store int the slargest variabale 
      * 
+     * but by solving accordingly time complexity increased because we travel two loop's  which means O(n+n) 
+     *  == O(2n)
+     * 
+     * i.e we use optimal solution 
       */
 
     }
