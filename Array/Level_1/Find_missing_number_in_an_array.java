@@ -39,6 +39,8 @@ public class Find_missing_number_in_an_array {
     Sum of all array elements(S2) = i = 0n-2a[i]
    The missing number = S1-S2
 
+   Note : Here  N = last number and  1 = Start number i.e (last*(last+1))/2 is the unvirsal formula
+
    Approach:
    The steps are as follows:
 
