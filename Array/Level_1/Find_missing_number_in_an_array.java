@@ -27,3 +27,30 @@ public class Find_missing_number_in_an_array {
         System.out.println("Missing Number is in the given array is:" + miss);
     }
 }
+/*
+ * 
+ * Intuition:
+   We know that the summation of the first N numbers is (N*(N+1))/2. We can say this S1. 
+   Now, in the given array, every number between 1 to N except one number is present. 
+   So, if we add the numbers of the array (say S2), the difference between S1 and S2 will be the missing number. 
+   Because, while adding all the numbers of the array, we did not add that particular number that is missing.
+
+   Sum of first N numbers(S1) = (N*(N+1))/2
+    Sum of all array elements(S2) = i = 0n-2a[i]
+   The missing number = S1-S2
+
+   Approach:
+   The steps are as follows:
+
+   We will first calculate the summation of first N natural numbers(i.e. 1 to N) using the specified formula.
+   Then we will add all the array elements using a loop.
+   Finally, we will consider the difference between the summation of the first N natural numbers and the sum of the array elements.
+   
+   Dry run:
+  
+    Assume the given array is: {1, 2, 4, 5} and N = 5.
+    Summation of 1 to 5 = (5*(5+1))/2 = 15
+    Summation of array elements = 12
+    So, the difference will be = 15 - 12 = 3. 
+     And the missing number is also 3.
+ */
